@@ -13,15 +13,15 @@
 <!--Make a form in your HTML that collects a single input (a new to-do)-->
 <form>
     <label for="to-to">Add To-Do Item</label>
-    <input id="to-do" type="text"></input>
-    <button type="submit">Submit</button>
+    <input id="to-do" type="text" placeholder="New Item"></input>
+    <button type="submit" onclick="addItem()">Submit</button>
 </form>
 
 <!--Make a header below the form that says "To Do List"-->
 <h2>To Do List</h2>
-<!--When you submit the form, a new to-do should pop up in your to-do list-->
+<ol id="list">
 
-<!--Submitting the form again should add another to do below the previous to-do-->
+</ol>
 
 </body>
 
